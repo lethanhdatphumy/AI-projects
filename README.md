@@ -45,15 +45,4 @@ This project applies Convolutional Neural Networks (CNNs) to detect breast cance
 - Why consistent preprocessing (resize, normalize, clip) matters
 - How multi-crop input can boost learning from large histology slides
 
----
 
-## 🔁 Current Pipeline Output
-
-From a single image:
-- 20 random crops → each resized to (224, 224)
-- 50 color augmentations per crop
-- Final shape: `(20, 50, 224, 224, 3)`
-
----
-
-## 🔧 Repo Structure
